@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crislovelia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div id="menu-bar" class="el-icon-s-unfold"></div>
+        <a href="#" class="logo"><span>C</span>rislovelia</a>
+        <nav class="navbar">
+            <a href="#home">首页</a>
+            <a href="#book">关于我们</a>
+            <a href="#packages">产品中心</a>
+            <a href="#services">新闻动态</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+        <!-- 图标 -->
+        <div class="icons">
+            <i class="el-icon-search" id="search-btn"></i>
+            <!-- <i class="el-icon-user" id="login-btn"></i> -->
+        </div>
+        <!-- 搜索框 -->
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="el-icon-search"></label>
+        </form>
+    </header>
+    <!-- 登录表单 -->
+    <div class="login-form-container">
+        <i class="el-icon-close" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+    <!-- 首页视频banner区 -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>缔造爱与美的艺术珍品</h3>
+            <p> 梦想创造未来</p>
+            <a href="#" class="btn">查看更多</a>
+        </div>
+    
+        <!-- <div class="controls">
+            <span class="vid-btn active" data-src="vid-3.mp4"></span>
+            <span class="vid-btn" data-src="vid-2.mp4"></span>
+            <span class="vid-btn" data-src="vid-1.mp4"></span>
+        </div> -->
+    
+        <div class="video-container">
+            <!-- <video src="vid-3.mp4" id="video-slider" loop autoplay muted></video> -->
+        </div>
+    
+    </section>
+    <!-- 预订部分 -->
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>A</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>U</span>
+            <span>s</span>
+        </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="./images/1.jpg" alt="">
+            </div>
+    
+            <form action="">
+                <div class="inputBox">
+                    <h3>
+                        CRISLOVELIA首饰公司自创立以来，始终秉持着“以爱为名，以美为魂”的品牌理念。我们深信，珠宝不仅仅是物质的财富，更是情感的寄托和传承。因此，我们致力于通过每一件作品，向世人传递爱与美的力量，让每一个佩戴者都能感受到深深的情感连接和美好的祝福。
+                        在设计过程中，我们注重将传统工艺与现代设计相结合，力求在保持珠宝经典美感的同时，注入更多的时尚元素和创新理念。我们的每一件作品都经过精心雕琢和打磨，确保每一个细节都达到完美的状态。
+                    </h3>
+                </div>
+            </form>
+
+        </div>
+    
+    </section>
+
+    <!-- 套餐部分 -->
+    
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>r</span>
+        <span>o</span>
+        <span>d</span>
+        <span>u</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> “挚爱之心”项链</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>“璀璨星辰”项链</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>玫瑰金链</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>摩托车仪表盘</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div> -->
+
+
+
+    </div>
+</section>
+<!-- 服务部分 -->
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>N</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+
+    </h1>   
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>展望未来</h3>
+            <p>展望未来，CRISLOVELIA首饰公司将继续秉承“以爱为名，以美为魂”的品牌理念，不断创新和进取。我们将继续加强与全球知名设计师和工匠的合作，引进更多的先进技术和设计理念，为消费者带来更多高品质、个性化的珠宝作品。同时，我们也将继续关注社会责任和公益活动，为社会做出更大的贡献。我们相信，在不久的将来，CRISLOVELIA首饰公司将成为全球珠宝行业的佼佼者，为更多人带来爱与美的力量。</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>设计团队与工艺</h3>
+            <p>CRISLOVELIA首饰公司拥有一支由国际知名设计师组成的设计团队，他们具备丰富的珠宝设计经验和独特的审美视角。在设计过程中，我们注重将传统工艺与现代设计相结合，力求在保持珠宝经典美感的同时，注入更多的时尚元素和创新理念。我们的每一件作品都经过精心雕琢和打磨，确保每一个细节都达到完美的状态。</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>人力理念</h3>
+            <p>凡事都有一个量与度的概念，更有一个时机掌握的问题。当你决定要提高装水的容量，你就必须检查木桶是否要回补你的短板，关键是看你有没有这份心思和这样的精力。</p>
+        </div>
+
+
+    </div>
+</section>
+<!-- 联系我们 -->
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="./images/5.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="您的姓名">
+                <input type="email" placeholder="您的邮箱">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="您的电话">
+                <input type="text" placeholder="反馈主题">
+            </div>
+            <textarea placeholder="您反馈的内容" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="发送给我们">
+        </form>
+
+    </div>
+    
+</section>
+
+
+<!-- 底部 -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>关于我们</h3>
+            <p></p>
+        </div>
+        <div class="box">
+            <h3>分支机构位置</h3>
+            <a href="#">成都</a>
+            <a href="#">北京</a>
+            <a href="#">上海</a>
+            <a href="#">深圳</a>
+        </div>
+        <div class="box">
+            <h3>快速链接</h3>
+            <a href="#home">首页</a>
+            <a href="#book">关于我们</a>
+            <a href="#packages">产品中心</a>
+            <a href="#contact">联系我们</a>
+        </div>
+        <div class="box">
+            <h3>关于我们</h3>
+            <a href="#">weibo</a>
+            <a href="#">qq</a>
+            <a href="#">twitter</a>
+            <a href="#">wechat</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> WMR </span> | all rights reserved! </h1>
+
+</section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
